@@ -7,11 +7,18 @@ import Image from "next/image";
 const PostCard = ({ post }) => {
   return (
     <div className="bg-[#131415] shadow-lg rounded-lg lg:p-8 p-10 mb-6">
-      <div className="relative overflow-hidde shadow-md pb-80 mb-6">
+      {/* <div className="relative overflow-hidde shadow-md pb-80 mb-6">
         <img
           src={post.featuredimage.url}
           alt={post.title}
           className="absolute object-top h-80 w-full object-fill shadow-lg rounded-t-lg lg:rounded-lg"
+        />
+      </div> */}
+      <div className="relative overflow-hidden shadow-md pb-80 mb-6">
+        <img
+          src={post.featuredimage.url}
+          alt=""
+          className="object-top absolute h-80 w-full object-cover  shadow-lg rounded-t-lg lg:rounded-lg"
         />
       </div>
       <h1 className="text-[#ffffffff] transition duration-100 text-center mb-2 cursor-pointer hover:text-gray-300 text-xl font-Titan">
