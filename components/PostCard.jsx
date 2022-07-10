@@ -43,7 +43,7 @@ const PostCard = ({ post }) => {
       <p className="text-white text-center ml-2">{post.excerpt}</p>
       <div className="mt-4 text-center justify-center items-center flex">
         <Link href={`/post/${post.slug}`}>
-          <div className="shadow-[4px_4px_0px_0px_#5c27a6] font-Secular bg-indigo-500 text-white rounded-sm transition duration-300 active:translate-x-1 active:translate-y-1 active:shadow-[0px_0px_0px_0px_#5c27a6] px-3 py-2 my-2 cursor-pointer">
+          <div className="shadow-[4px_4px_0px_0px_#094c66] font-Secular bg-[#1197cc] text-white rounded-sm transition duration-300 active:translate-x-1 active:translate-y-1 active:shadow-[0px_0px_0px_0px_#094c66] px-3 py-2 my-2 cursor-pointer">
             Continue Reading
           </div>
         </Link>
