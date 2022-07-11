@@ -14,7 +14,7 @@ const Categories = () => {
         <div className="flex-col mb-4 text-sm flex-grow p-2 border-b border-gray-800 cursor-pointer hover:-translate-y-1 duration-300">
           <Link
             href={`/category/${category.slug}`}
-            key={index}
+            key={category.createdAt}
             className="text-white"
           >
             {category.name}
