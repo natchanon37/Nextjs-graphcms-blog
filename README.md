@@ -1,4 +1,5 @@
 ## Blog App using GraphQL, NextJs and TailwindCSS.
+![alt text for screen readers](/alohablog.png "Text to show on mouseover")
 
 Getting Started
 
